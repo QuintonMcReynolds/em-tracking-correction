@@ -1,0 +1,82 @@
+{
+  "run_id": "global_mlp_all",
+  "created": "2026-10-17T03:06:40+00:00",
+  "git_sha": "e8d8201-dirty",
+  "config": {
+    "model": "mlp",
+    "hidden": 512,
+    "layers": 3,
+    "loss": "huber",
+    "features": "all",
+    "n_features": 272
+  },
+  "config_hash": "df3dd117e8d2",
+  "dataset": {
+    "dir": "v1",
+    "dataset_hash": "2fe82f204bf3",
+    "config_hash": "b7a7c170d541"
+  },
+  "metrics": {
+    "test_clinic": {
+      "n_envs": 60,
+      "pos_med_mm": 4.204471562160242,
+      "pos_p95_mm": 13.876655245666011,
+      "ang_med_deg": 0.8593509314291754,
+      "ang_p95_deg": 1.9806831529980027,
+      "envs_meeting_target": 0.5333333333333333,
+      "worst_env_pos_med_mm": 110.01585098723814
+    },
+    "near_emitter": {
+      "n_envs": 20,
+      "pos_med_mm": 5.478769520104661,
+      "pos_p95_mm": 21.723011538489814,
+      "ang_med_deg": 1.0711936902336974,
+      "ang_p95_deg": 2.962538113343518,
+      "envs_meeting_target": 0.35,
+      "worst_env_pos_med_mm": 45.64738251313838
+    },
+    "under_table": {
+      "n_envs": 20,
+      "pos_med_mm": 16.719445321470737,
+      "pos_p95_mm": 34.92939823907766,
+      "ang_med_deg": 2.3463534777604833,
+      "ang_p95_deg": 4.84522128105827,
+      "envs_meeting_target": 0.0,
+      "worst_env_pos_med_mm": 50.08370025394599
+    },
+    "clutter": {
+      "n_envs": 20,
+      "pos_med_mm": 5.667708533439962,
+      "pos_p95_mm": 16.66117940126273,
+      "ang_med_deg": 1.114832316823529,
+      "ang_p95_deg": 2.3489668957792786,
+      "envs_meeting_target": 0.5,
+      "worst_env_pos_med_mm": 18.692203462064203
+    },
+    "strong": {
+      "n_envs": 20,
+      "pos_med_mm": 5.715156737296759,
+      "pos_p95_mm": 21.42826152592943,
+      "ang_med_deg": 1.1361169139929677,
+      "ang_p95_deg": 2.518097607580364,
+      "envs_meeting_target": 0.4,
+      "worst_env_pos_med_mm": 40.82337092295546
+    },
+    "clean": {
+      "n_envs": 10,
+      "pos_med_mm": 0.8742836403916725,
+      "pos_p95_mm": 2.2200436508308354,
+      "ang_med_deg": 0.19325157790123507,
+      "ang_p95_deg": 0.4426733240984294,
+      "envs_meeting_target": 1.0,
+      "worst_env_pos_med_mm": 1.0809822668887923
+    },
+    "train_seconds": 159.6
+  },
+  "artifacts": {
+    "mlp": {
+      "path": "runs/global_mlp_all/model.pt",
+      "sha256": "bc2cb261e04a0c3e"
+    }
+  }
+}

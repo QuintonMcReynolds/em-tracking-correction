@@ -49,6 +49,17 @@ class Nets:
                 net = UNet()
                 net.load_state_dict(ck["state"])
                 self.m[k] = (net.eval(), ck["n_frames"])
+                self._check_not_identity(k)
+
+    @torch.no_grad()
+    def _check_not_identity(self, k):
+        """Training sanity check: a model whose output equals its input learned nothing (collapsed). Refuse to
+        report it as a 'denoiser' result."""
+        rng = np.random.default_rng(0)
+        y = frames(np.full((64, 64), 0.4, np.float32), 200, self.m[k][1], rng).mean(0)
+        out = self(k, y, 200)
+        if float(np.abs(out - y).mean()) < 1e-4:
+            raise RuntimeError(f"denoiser {k!r} collapsed to the identity (output == input); retrain it")
 
     @torch.no_grad()
     def __call__(self, k, y, n0):

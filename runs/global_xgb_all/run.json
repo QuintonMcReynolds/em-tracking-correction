@@ -1,0 +1,121 @@
+{
+  "run_id": "global_xgb_all",
+  "created": "2026-10-17T03:03:40+00:00",
+  "git_sha": "e8d8201-dirty",
+  "config": {
+    "model": "xgboost",
+    "params": {
+      "objective": "reg:squarederror",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": 0.5,
+      "device": null,
+      "early_stopping_rounds": 100,
+      "enable_categorical": true,
+      "eval_metric": null,
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.05,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": 8,
+      "max_leaves": null,
+      "min_child_weight": 20,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": "one_output_per_tree",
+      "n_estimators": 3000,
+      "n_jobs": null,
+      "num_parallel_tree": null,
+      "random_state": null,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": 0.8,
+      "tree_method": "hist",
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "features": "all",
+    "n_features": 272
+  },
+  "config_hash": "c04ca8b6b903",
+  "dataset": {
+    "dir": "v1",
+    "dataset_hash": "2fe82f204bf3",
+    "config_hash": "b7a7c170d541"
+  },
+  "metrics": {
+    "test_clinic": {
+      "n_envs": 60,
+      "pos_med_mm": 8.266109417725296,
+      "pos_p95_mm": 30.454802176446393,
+      "ang_med_deg": 1.9889105884680118,
+      "ang_p95_deg": 5.661357154266316,
+      "envs_meeting_target": 0.31666666666666665,
+      "worst_env_pos_med_mm": 96.243015561763
+    },
+    "near_emitter": {
+      "n_envs": 20,
+      "pos_med_mm": 8.8135723116789,
+      "pos_p95_mm": 50.8968755628309,
+      "ang_med_deg": 2.5590540246242437,
+      "ang_p95_deg": 11.13459488524516,
+      "envs_meeting_target": 0.25,
+      "worst_env_pos_med_mm": 113.43918068951234
+    },
+    "under_table": {
+      "n_envs": 20,
+      "pos_med_mm": 16.010570957794645,
+      "pos_p95_mm": 33.61181446186775,
+      "ang_med_deg": 2.0947585006615324,
+      "ang_p95_deg": 4.215639040299958,
+      "envs_meeting_target": 0.0,
+      "worst_env_pos_med_mm": 113.65325216546677
+    },
+    "clutter": {
+      "n_envs": 20,
+      "pos_med_mm": 8.503692201843482,
+      "pos_p95_mm": 28.877762868873262,
+      "ang_med_deg": 1.9054770833759913,
+      "ang_p95_deg": 5.608782580518588,
+      "envs_meeting_target": 0.15,
+      "worst_env_pos_med_mm": 70.49114982214917
+    },
+    "strong": {
+      "n_envs": 20,
+      "pos_med_mm": 18.269243596386882,
+      "pos_p95_mm": 50.35703621851894,
+      "ang_med_deg": 3.8099257037934864,
+      "ang_p95_deg": 9.527637111819892,
+      "envs_meeting_target": 0.3,
+      "worst_env_pos_med_mm": 33.16502278732607
+    },
+    "clean": {
+      "n_envs": 10,
+      "pos_med_mm": 1.0546432309436593,
+      "pos_p95_mm": 1.7982794303619944,
+      "ang_med_deg": 0.23371723189070864,
+      "ang_p95_deg": 0.3752659234653505,
+      "envs_meeting_target": 1.0,
+      "worst_env_pos_med_mm": 1.1221521683660107
+    },
+    "train_seconds": 124.4
+  },
+  "artifacts": {
+    "xgb": {
+      "path": "runs/global_xgb_all/xgb.json",
+      "sha256": "cdd3b22ea034cc8e"
+    }
+  }
+}

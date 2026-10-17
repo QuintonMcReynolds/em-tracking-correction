@@ -38,8 +38,9 @@ Everything runs on a laptop (Apple M4): data generation takes about 2 minutes, t
 
 ![error vs calibration time](reports/figures/budget_test_clinic.png)
 
-On 60 clinic rooms never seen in training, the native tracker meets ±10 mm / ±1° in **33 %** of rooms. A global
-model with no site data doesn't change that (**33 %**). With a site calibration:
+On 60 clinic rooms never seen in training, the native tracker meets ±10 mm / ±1° in **33 %** of rooms. With no site
+data, the best global model (an MLP) reaches **53 %**; the tree models don't move it (LightGBM 33 %, XGBoost 32 %).
+With a site calibration:
 
 - **1 minute** (15 poses): the attention model reaches **76 %** (median 2.3 mm / 0.53°).
 - **16 minutes** (240 poses): attention + field map reaches **92 %** (2.0 mm / 0.34°).
@@ -53,6 +54,8 @@ Median position / angle error per room, then the share of rooms meeting the targ
 |---|---|---|---|---|---|
 | native tracker | 8.6 mm / 2.02° · **33 %** | – | – | – | – |
 | global LightGBM (no site data) | 7.0 mm / 1.86° · **33 %** | – | – | – | – |
+| global XGBoost (no site data) | 8.3 mm / 1.99° · **32 %** | – | – | – | – |
+| global MLP (no site data) | 4.2 mm / 0.86° · **53 %** | – | – | – | – |
 | encoder-decoder attention | 4.3 mm / 0.93° · **58 %** | 2.3 mm / 0.53° · **76 %** | 2.2 mm / 0.46° · **77 %** | 2.2 mm / 0.43° · **77 %** | 2.1 mm / 0.44° · **77 %** |
 | per-site polynomial field map | – | 4.4 mm / 0.91° · **52 %** | 3.7 mm / 0.79° · **62 %** | 2.4 mm / 0.48° · **80 %** | 2.4 mm / 0.43° · **82 %** |
 | global LightGBM + field map | – | 4.9 mm / 0.90° · **52 %** | 4.4 mm / 0.83° · **58 %** | 3.4 mm / 0.57° · **74 %** | 3.0 mm / 0.53° · **78 %** |
@@ -189,11 +192,14 @@ metal next to the emitter).
 | without the reference receiver | 9.34 mm | 1.81° | 15.62 mm |
 | without the IMUs | 6.69 mm | 1.76° | 17.75 mm |
 | current frame only (no lags) | 7.22 mm | 1.67° | 12.60 mm |
+| XGBoost, all features | 8.27 mm | 1.99° | 18.27 mm |
+| MLP, all features | 4.20 mm | 0.86° | 5.72 mm |
 <!-- /gen:ablations -->
 
 The reference receiver is what gives the global model any grip on an unseen room (7.0 → 9.3 mm without it). The
-accelerometers and frame history make no measurable difference *for the global model*, which is too weak overall
-for them to show. Site calibration, not more sensors, is what moves the numbers.
+accelerometers and frame history make no measurable difference to the LightGBM model. (Ablations were run on
+LightGBM; the MLP is the stronger global model, 4.2 mm, and wasn't ablated.) Site calibration, not more sensors, is
+what moves the numbers most.
 
 ---
 
@@ -207,16 +213,62 @@ map; fluoroscopy frames of a **static scene** are simulated with Poisson photon 
 provides; a supervised model on clean targets is the upper bound.
 
 <!-- gen:denoise -->
-_not run yet_
+| method | frames (dose) | PSNR @ 100 | PSNR @ 200 | PSNR @ 400 | PSNR @ 800 | SSIM @ 200 | fracture-box SSIM @ 200 | false edges @ 200 | faint wire kept @ 200 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 frame, unfiltered | 1 | 26.0 | 29.2 | 32.3 | 35.3 | 0.581 | 0.679 | 70.2 | 99 % |
+| 1 frame + 3×3 Gaussian | 1 | 32.8 | 34.9 | 36.4 | 37.4 | 0.895 | 0.879 | 31.8 | 47 % |
+| 4-frame average | 4 | 31.9 | 35.1 | 38.2 | 41.3 | 0.834 | 0.887 | 29.2 | 99 % |
+| **current baseline**: 4-frame avg + 3×3 Gaussian | 4 | 36.2 | 37.3 | 37.9 | 38.3 | 0.963 | 0.929 | 14.1 | 47 % |
+| Noise2Noise U-Net, 1 frame | 1 | 39.4 | 41.4 | 43.1 | 44.8 | 0.982 | 0.920 | 34.4 | 10 % |
+| Noise2Noise U-Net, 4-frame avg | 4 | 40.6 | 42.7 | 44.6 | 46.4 | 0.986 | 0.959 | 21.0 | 28 % |
+| supervised U-Net, 1 frame (upper bound) | 1 | 39.5 | 41.5 | 43.3 | 44.9 | 0.983 | 0.919 | 34.5 | 12 % |
 <!-- /gen:denoise -->
 
 Flat-field phantom (the ideal output is perfectly flat; any structure is invented):
 
 <!-- gen:flat -->
-_not run yet_
+| method (flat phantom, dose 200) | residual structure (high-pass std) | mean bias | spurious edge pixels |
+|---|---|---|---|
+| single | 0.0508 | +0.0040 | 0 |
+| gauss3+avg4 | 0.0091 | +0.0002 | 0 |
+| n2n_single | 0.0030 | +0.0001 | 0 |
+| n2n_avg4 | 0.0034 | +0.0003 | 0 |
+| sup_single | 0.0029 | +0.0001 | 0 |
 <!-- /gen:flat -->
 
-DENOISE_NARRATIVE
+**PSNR says replace; the safety screens say not yet.**
+
+- **Learned denoising wins every global metric.** With the same 4 frames as the current pipeline, Noise2Noise
+  gives +5.3 dB at 200 photons/pixel (42.7 vs 37.3), better structure inside the annotated fracture boxes (SSIM 0.959
+  vs 0.929), and a flatter flat field. Even from a *single* frame (a quarter of the dose) it beats the 4-frame
+  baseline by 4 dB.
+- **Noise2Noise gets supervised quality without clean data.** Single-frame Noise2Noise matches the supervised upper
+  bound (41.4 vs 41.5 dB). It trains only on pairs of noisy frames of a static scene, which is the data a real
+  fluoroscope can actually provide.
+- **It erases faint thin structure.** A 1-pixel wire at low contrast (a stand-in for a hairline fracture or a
+  guidewire) keeps 47 % of its contrast through the current baseline at every dose; the 3×3 Gaussian halves it, but
+  consistently. The learned denoisers keep **28 %** (4-frame, dose 200), **15 %** (4-frame, dose 100) and **4–10 %**
+  (single frame, dose 100–200). The *supervised* model erases it just as badly. This comes from training to minimise
+  average error, not from Noise2Noise: below the noise floor, a faint line is indistinguishable from noise and gets
+  averaged away.
+- **It's dose-dependent.** At 400 photons/pixel and above, the 4-frame denoiser matches or beats the baseline on
+  the faint wire (46 % → 62 %) and on everything else, except that it puts slightly more edges where the reference
+  has none (17 vs 12 per 1,000 edge pixels).
+- **The flat field shows no invented structure** (no spurious edges for any method). The hallucination risk this
+  screen finds is *erasure*, not invention.
+
+**Recommendation.** Don't replace the 3×3 Gaussian + frame averaging with a learned denoiser at the low-dose end
+(≤ 200 photons/pixel). The headline argument, "one denoised frame beats four averaged ones, so cut the dose 4×",
+fails the faint-structure screen (10 % vs 47 % of wire contrast). A 4-frame Noise2Noise denoiser is a candidate
+**only above about 400 photons/pixel**, and only after the controls below.
+
+| hazard | cause | how it was screened here | result | control required before release |
+|---|---|---|---|---|
+| a faint fracture line or wire disappears | MSE-trained denoiser regresses sub-noise structure to the mean | 1-px wire insertion, contrast transfer | **fails ≤ 200 photons/px** (4–28 % vs 47 %) | dose-gated use (classical filter below threshold); thin-structure augmentation in training; reader study on phantoms with hairline features |
+| detail lost at the fracture | over-smoothing in textured bone | SSIM inside annotated fracture boxes | passes with 4 frames (0.959 vs 0.929); single frame slightly worse (0.920) | keep multi-frame input; report fracture-region metrics, not whole-image PSNR |
+| invented structure | network prior paints texture | flat-field phantom + edges absent from the reference | no spurious edges on flat field; more off-reference edges on anatomy (21 vs 14 at dose 200) | radiologist review of off-reference edges; residual (noisy − denoised) map available to the reader |
+| silent failure on unseen anatomy or dose | distribution shift | not covered (one dataset, simulated noise) | **open** | shift monitor on the noise level and image statistics; per-anatomy validation |
+| model degenerates | training collapse | identity check at load time | caught one: the first 4-frame model collapsed to output = input and was retrained | identity / regression checks in CI before any release |
 
 ---
 

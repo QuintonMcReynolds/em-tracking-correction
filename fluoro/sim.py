@@ -26,7 +26,7 @@ def load_split(split: str, max_side: int = 384) -> tuple[list[np.ndarray], list[
     for f in sorted(idir.glob("*.jpg")):
         im = Image.open(f).convert("L")
         s = max_side / max(im.size)
-        im = im.resize((max(1, round(im.size[0] * s)), max(1, round(im.size[1] * s))), Image.BILINEAR)
+        im = im.resize((max(1, round(im.size[0] * s)), max(1, round(im.size[1] * s))), Image.Resampling.BILINEAR)
         a = np.asarray(im, np.float32) / 255.0
         h, w = a.shape
         bb = []

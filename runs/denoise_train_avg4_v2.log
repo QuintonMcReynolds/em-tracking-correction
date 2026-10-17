@@ -1,0 +1,9 @@
+/Volumes/CuetipDev/em-tracking-correction/fluoro/train.py:66: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  log.append({"step": step, "loss": float(loss), "sec": round(time.time() - t0)})
+n2n_avg4 {"step": 1000, "loss": 0.0009369694744236767, "sec": 192}
+n2n_avg4 {"step": 2000, "loss": 0.0007869878900237381, "sec": 436}
+n2n_avg4 {"step": 3000, "loss": 0.000770132290199399, "sec": 670}
+n2n_avg4 {"step": 4000, "loss": 0.0006618932238779962, "sec": 891}
+n2n_avg4 {"step": 5000, "loss": 0.0008393277530558407, "sec": 1121}
+n2n_avg4 {"step": 6000, "loss": 0.001020503812469542, "sec": 1353}

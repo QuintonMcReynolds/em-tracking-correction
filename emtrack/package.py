@@ -64,6 +64,8 @@ def export(ckpt_path: Path, out_dir: Path, train_df: pd.DataFrame, dataset_hash:
     K, Q = torch.export.Dim("K", min=1, max=4096), torch.export.Dim("Q", min=1, max=65536)
     onnx_prog = torch.onnx.export(g, ex, input_names=["ctx_x", "ctx_y", "ctx_mask", "q_x"], output_names=["correction"],
                                   dynamo=True, dynamic_shapes={"ctx_x": {1: K}, "ctx_y": {1: K}, "ctx_mask": {1: K}, "q_x": {1: Q}})
+    if onnx_prog is None:
+        raise RuntimeError("ONNX export returned no program")
     onnx_prog.save(str(out_dir / "model.onnx"), external_data=False)
     X = train_df[ck["cols"]].to_numpy(np.float64)
     lo, hi = np.quantile(X, 0.001, 0), np.quantile(X, 0.999, 0)

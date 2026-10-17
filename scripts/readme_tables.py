@@ -13,7 +13,8 @@ from emtrack.data import valid_rate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 REP = ROOT / "reports"
-NAMES = {"native": "native tracker", "global_lgb": "global LightGBM (no site data)", "site_attention": "encoder-decoder attention",
+NAMES = {"native": "native tracker", "global_lgb": "global LightGBM (no site data)", "global_xgb": "global XGBoost (no site data)",
+         "global_mlp": "global MLP (no site data)", "site_attention": "encoder-decoder attention",
          "fieldmap": "per-site polynomial field map", "global+fieldmap": "global LightGBM + field map",
          "attention+fieldmap": "attention + field map"}
 STRESS = ["near_emitter", "under_table", "clutter", "strong", "clean"]
@@ -37,7 +38,19 @@ def budget_table():
     d = r[(r.split == "test_clinic") & (r.protocol.isin(["-", "random"]))]
     Ks = [0, 15, 60, 240, 900]
     rows = ["| method | " + " | ".join(f"{k} poses ({k * 4 / 60:g} min)" for k in Ks) + " |", "|---|" + "---|" * len(Ks)]
-    for m in ["native", "global_lgb", "site_attention", "fieldmap", "global+fieldmap", "attention+fieldmap"]:
+    reg = {}
+    for x in (ROOT / "runs" / "registry.jsonl").read_text().splitlines():
+        if x.strip():
+            r_ = json.loads(x)
+            reg[r_["run_id"]] = r_["metrics"]
+    for m in ["native", "global_lgb", "global_xgb", "global_mlp", "site_attention", "fieldmap", "global+fieldmap", "attention+fieldmap"]:
+        if m in ("global_xgb", "global_mlp"):
+            # same per-site metrics, computed by train_global.py on the same test sites (recorded in the run registry)
+            t = reg.get(f"{m}_all", {}).get("test_clinic")
+            if t:
+                rows.append(f"| {NAMES[m]} | {t['pos_med_mm']:.1f} mm / {t['ang_med_deg']:.2f}° · **{100 * t['envs_meeting_target']:.0f} %** |"
+                            + " – |" * (len(Ks) - 1))
+            continue
         cells = []
         for k in Ks:
             g = d[(d.method == m) & (d.K == k)]
@@ -125,7 +138,8 @@ def ablation_table():
     for k, n in names.items():
         if k in last:
             m = last[k]["metrics"]
-            rows.append(f"| {n} | {m['test_clinic']['pos_med_mm']:.2f} mm | {m['test_clinic']['ang_med_deg']:.2f}° | {m['strong']['pos_med_mm']:.2f} mm |")
+            tc, st = m["test_clinic"], m["strong"]
+            rows.append(f"| {n} | {tc['pos_med_mm']:.2f} mm | {tc['ang_med_deg']:.2f}° | {st['pos_med_mm']:.2f} mm |")
     return "\n".join(rows)
 
 
@@ -139,7 +153,8 @@ def denoise_table():
           "gauss3+avg4": "**current baseline**: 4-frame avg + 3×3 Gaussian", "n2n_single": "Noise2Noise U-Net, 1 frame",
           "n2n_avg4": "Noise2Noise U-Net, 4-frame avg", "sup_single": "supervised U-Net, 1 frame (upper bound)"}
     doses = sorted(s.dose.unique())
-    rows = ["| method | frames (dose) | " + " | ".join(f"PSNR @ {int(d)}" for d in doses) + " | SSIM @ 200 | fracture-box SSIM @ 200 | false edges @ 200 | faint wire kept @ 200 |",
+    extra = " | SSIM @ 200 | fracture-box SSIM @ 200 | false edges @ 200 | faint wire kept @ 200 |"
+    rows = ["| method | frames (dose) | " + " | ".join(f"PSNR @ {int(d)}" for d in doses) + extra,
             "|---|---|" + "---|" * (len(doses) + 4)]
     for m in order:
         g = s[s.method == m].set_index("dose")

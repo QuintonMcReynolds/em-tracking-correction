@@ -4,3 +4,24 @@ Consider using tensor.detach() first. (Triggered internally at /Users/runner/wor
 n2n_single {"step": 1000, "loss": 0.004308205563575029, "sec": 259}
 n2n_single {"step": 2000, "loss": 0.003108646720647812, "sec": 513}
 n2n_single {"step": 3000, "loss": 0.0026383826043456793, "sec": 763}
+n2n_single {"step": 4000, "loss": 0.0034210749436169863, "sec": 1004}
+n2n_single {"step": 5000, "loss": 0.0036053673829883337, "sec": 1254}
+n2n_single {"step": 6000, "loss": 0.0034564316738396883, "sec": 1471}
+/Volumes/CuetipDev/em-tracking-correction/fluoro/train.py:65: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  log.append({"step": step, "loss": float(loss), "sec": round(time.time() - t0)})
+n2n_avg4 {"step": 1000, "loss": 0.001537822769023478, "sec": 225}
+n2n_avg4 {"step": 2000, "loss": 0.0013668205356225371, "sec": 438}
+n2n_avg4 {"step": 3000, "loss": 0.0013960510259494185, "sec": 664}
+n2n_avg4 {"step": 4000, "loss": 0.0012227724073454738, "sec": 877}
+n2n_avg4 {"step": 5000, "loss": 0.0015433327062055469, "sec": 1082}
+n2n_avg4 {"step": 6000, "loss": 0.0018820534460246563, "sec": 1289}
+/Volumes/CuetipDev/em-tracking-correction/fluoro/train.py:65: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  log.append({"step": step, "loss": float(loss), "sec": round(time.time() - t0)})
+sup_single {"step": 1000, "loss": 0.00014835527690593153, "sec": 194}
+sup_single {"step": 2000, "loss": 0.0001025778692564927, "sec": 402}
+sup_single {"step": 3000, "loss": 0.00012271250307094306, "sec": 614}
+sup_single {"step": 4000, "loss": 9.136206790572032e-05, "sec": 829}
+sup_single {"step": 5000, "loss": 0.0001200015758513473, "sec": 1041}
+sup_single {"step": 6000, "loss": 0.00011653898400254548, "sec": 1249}

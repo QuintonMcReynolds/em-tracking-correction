@@ -34,15 +34,16 @@ def crops(imgs, rng, n, size=128):
     return out
 
 
-def main(kind: str = "n2n_single", steps: int = 6000, seed: int = 0):
+def main(kind: str = "n2n_single", steps: int = 6000, seed: int = 0, lr_milli: float = 2.0):
+    lr = lr_milli / 1000.0
     rng = np.random.default_rng(seed)
     torch.manual_seed(seed)
     dev = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
     imgs, _ = load_split("train")
     imgs = [im for im in imgs if min(im.shape) >= 128]
     net = UNet().to(dev)
-    opt = torch.optim.AdamW(net.parameters(), 2e-3, weight_decay=1e-5)
-    sched = torch.optim.lr_scheduler.OneCycleLR(opt, 2e-3, total_steps=steps, pct_start=0.05)
+    opt = torch.optim.AdamW(net.parameters(), lr, weight_decay=1e-5)
+    sched = torch.optim.lr_scheduler.OneCycleLR(opt, lr, total_steps=steps, pct_start=0.05)
     nf = 4 if kind == "n2n_avg4" else 1
     t0, log = time.time(), []
     for step in range(1, steps + 1):
@@ -66,8 +67,10 @@ def main(kind: str = "n2n_single", steps: int = 6000, seed: int = 0):
             print(kind, json.dumps(log[-1]), flush=True)
     out = ROOT / "runs" / f"denoise_{kind}"
     out.mkdir(parents=True, exist_ok=True)
-    torch.save({"state": net.cpu().state_dict(), "kind": kind, "n_frames": nf, "steps": steps, "log": log}, out / "model.pt")
+    torch.save({"state": net.cpu().state_dict(), "kind": kind, "n_frames": nf, "steps": steps, "lr": lr, "log": log}, out / "model.pt")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], *map(int, sys.argv[2:]))
+    # usage: train.py KIND [steps] [seed] [lr in units of 1e-4 * 10, i.e. 2 -> 2e-3]
+    a = sys.argv[1:]
+    main(a[0], *(int(x) for x in a[1:3]), *(float(x) for x in a[3:4]))
