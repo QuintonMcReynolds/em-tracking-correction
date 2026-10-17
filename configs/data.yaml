@@ -1,0 +1,11 @@
+seed: 2026
+version: v1
+splits:
+  train:        {family: clinic, n_envs: 240, n_traj: 60, T: 20, pool: 400}
+  val:          {family: clinic, n_envs: 40,  n_traj: 40, T: 20, pool: 1500}
+  test_clinic:  {family: clinic, n_envs: 60,  n_traj: 40, T: 20, pool: 1500}
+  near_emitter: {family: near_emitter, n_envs: 20, n_traj: 40, T: 20, pool: 1500}
+  under_table:  {family: under_table,  n_envs: 20, n_traj: 40, T: 20, pool: 1500}
+  clutter:      {family: clutter,      n_envs: 20, n_traj: 40, T: 20, pool: 1500}
+  strong:       {family: strong,       n_envs: 20, n_traj: 40, T: 20, pool: 1500}
+  clean:        {family: clean,        n_envs: 10, n_traj: 40, T: 20, pool: 1500}

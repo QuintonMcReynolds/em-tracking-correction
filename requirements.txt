@@ -1,0 +1,16 @@
+torch==2.14.1
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.4.1
+onnx==1.23.2
+onnxruntime==1.31.0
+matplotlib==3.11.2
+pyarrow==26.0.0
+PyYAML==6.0.3
+pytest==9.1.1
+ruff==0.17.1
+mypy==2.4.0
+onnxscript==0.7.2

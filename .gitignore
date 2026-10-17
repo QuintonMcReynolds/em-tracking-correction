@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+data/
+runs/*/model.pt
+*.onnx
+# trained model files are reproducible (make) and their hashes are in runs/registry.jsonl; too large for git
+runs/*/lgb_*.txt
+runs/*/xgb.json
+runs/*/*.pt
+!package/model.onnx

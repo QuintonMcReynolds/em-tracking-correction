@@ -1,0 +1,3164 @@
+{
+ "test_clinic": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 4.01,
+   "ang_med": 0.76,
+   "meets": 0.675,
+   "n": 60
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 2.94,
+   "ang_med": 0.49,
+   "meets": 0.775,
+   "n": 60
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 2.3,
+   "ang_med": 0.4,
+   "meets": 0.842,
+   "n": 60
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 2.03,
+   "ang_med": 0.35,
+   "meets": 0.925,
+   "n": 60
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 1.82,
+   "ang_med": 0.32,
+   "meets": 0.925,
+   "n": 60
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 3.23,
+   "ang_med": 0.55,
+   "meets": 0.783,
+   "n": 60
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 2.32,
+   "ang_med": 0.41,
+   "meets": 0.833,
+   "n": 60
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 2.16,
+   "ang_med": 0.38,
+   "meets": 0.883,
+   "n": 60
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 1.89,
+   "ang_med": 0.33,
+   "meets": 0.917,
+   "n": 60
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 1.81,
+   "ang_med": 0.34,
+   "meets": 0.917,
+   "n": 60
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 3.01,
+   "ang_med": 0.5,
+   "meets": 0.758,
+   "n": 60
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 2.29,
+   "ang_med": 0.44,
+   "meets": 0.833,
+   "n": 60
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 2.05,
+   "ang_med": 0.34,
+   "meets": 0.917,
+   "n": 60
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 1.87,
+   "ang_med": 0.33,
+   "meets": 0.925,
+   "n": 60
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 1.78,
+   "ang_med": 0.33,
+   "meets": 0.925,
+   "n": 60
+  },
+  "attention+fieldmap|stratified|60": {
+   "pos_med": 2.83,
+   "ang_med": 0.5,
+   "meets": 0.792,
+   "n": 60
+  },
+  "attention+fieldmap|stratified|120": {
+   "pos_med": 2.06,
+   "ang_med": 0.41,
+   "meets": 0.858,
+   "n": 60
+  },
+  "attention+fieldmap|stratified|240": {
+   "pos_med": 1.88,
+   "ang_med": 0.34,
+   "meets": 0.908,
+   "n": 60
+  },
+  "attention+fieldmap|stratified|450": {
+   "pos_med": 1.87,
+   "ang_med": 0.34,
+   "meets": 0.917,
+   "n": 60
+  },
+  "attention+fieldmap|stratified|900": {
+   "pos_med": 1.8,
+   "ang_med": 0.32,
+   "meets": 0.917,
+   "n": 60
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 4.53,
+   "ang_med": 0.94,
+   "meets": 0.508,
+   "n": 60
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 5.19,
+   "ang_med": 0.79,
+   "meets": 0.533,
+   "n": 60
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 4.91,
+   "ang_med": 0.94,
+   "meets": 0.525,
+   "n": 60
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 3.53,
+   "ang_med": 0.67,
+   "meets": 0.633,
+   "n": 60
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 2.41,
+   "ang_med": 0.54,
+   "meets": 0.733,
+   "n": 60
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 2.49,
+   "ang_med": 0.51,
+   "meets": 0.783,
+   "n": 60
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 2.21,
+   "ang_med": 0.43,
+   "meets": 0.817,
+   "n": 60
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 6.4,
+   "ang_med": 1.06,
+   "meets": 0.483,
+   "n": 60
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 6.55,
+   "ang_med": 1.02,
+   "meets": 0.483,
+   "n": 60
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 4.58,
+   "ang_med": 0.81,
+   "meets": 0.567,
+   "n": 60
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 3.07,
+   "ang_med": 0.61,
+   "meets": 0.65,
+   "n": 60
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 2.54,
+   "ang_med": 0.48,
+   "meets": 0.767,
+   "n": 60
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 2.43,
+   "ang_med": 0.44,
+   "meets": 0.817,
+   "n": 60
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 2.54,
+   "ang_med": 0.44,
+   "meets": 0.817,
+   "n": 60
+  },
+  "fieldmap|random|15": {
+   "pos_med": 4.45,
+   "ang_med": 0.91,
+   "meets": 0.517,
+   "n": 60
+  },
+  "fieldmap|random|30": {
+   "pos_med": 4.77,
+   "ang_med": 0.79,
+   "meets": 0.55,
+   "n": 60
+  },
+  "fieldmap|random|60": {
+   "pos_med": 3.72,
+   "ang_med": 0.79,
+   "meets": 0.625,
+   "n": 60
+  },
+  "fieldmap|random|120": {
+   "pos_med": 2.75,
+   "ang_med": 0.56,
+   "meets": 0.733,
+   "n": 60
+  },
+  "fieldmap|random|240": {
+   "pos_med": 2.4,
+   "ang_med": 0.48,
+   "meets": 0.8,
+   "n": 60
+  },
+  "fieldmap|random|450": {
+   "pos_med": 2.35,
+   "ang_med": 0.43,
+   "meets": 0.833,
+   "n": 60
+  },
+  "fieldmap|random|900": {
+   "pos_med": 2.4,
+   "ang_med": 0.43,
+   "meets": 0.825,
+   "n": 60
+  },
+  "fieldmap|stratified|15": {
+   "pos_med": 3.7,
+   "ang_med": 0.72,
+   "meets": 0.592,
+   "n": 60
+  },
+  "fieldmap|stratified|30": {
+   "pos_med": 3.83,
+   "ang_med": 0.7,
+   "meets": 0.583,
+   "n": 60
+  },
+  "fieldmap|stratified|60": {
+   "pos_med": 3.14,
+   "ang_med": 0.62,
+   "meets": 0.683,
+   "n": 60
+  },
+  "fieldmap|stratified|120": {
+   "pos_med": 2.38,
+   "ang_med": 0.48,
+   "meets": 0.808,
+   "n": 60
+  },
+  "fieldmap|stratified|240": {
+   "pos_med": 2.43,
+   "ang_med": 0.42,
+   "meets": 0.833,
+   "n": 60
+  },
+  "fieldmap|stratified|450": {
+   "pos_med": 2.54,
+   "ang_med": 0.47,
+   "meets": 0.825,
+   "n": 60
+  },
+  "fieldmap|stratified|900": {
+   "pos_med": 2.52,
+   "ang_med": 0.44,
+   "meets": 0.817,
+   "n": 60
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 4.99,
+   "ang_med": 0.91,
+   "meets": 0.525,
+   "n": 60
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 5.68,
+   "ang_med": 0.88,
+   "meets": 0.542,
+   "n": 60
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 6.55,
+   "ang_med": 1.07,
+   "meets": 0.467,
+   "n": 60
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 4.72,
+   "ang_med": 0.8,
+   "meets": 0.567,
+   "n": 60
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 3.68,
+   "ang_med": 0.62,
+   "meets": 0.692,
+   "n": 60
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 3.33,
+   "ang_med": 0.58,
+   "meets": 0.725,
+   "n": 60
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 3.21,
+   "ang_med": 0.57,
+   "meets": 0.792,
+   "n": 60
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 6.44,
+   "ang_med": 1.0,
+   "meets": 0.5,
+   "n": 60
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 6.39,
+   "ang_med": 1.01,
+   "meets": 0.483,
+   "n": 60
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 5.02,
+   "ang_med": 0.87,
+   "meets": 0.583,
+   "n": 60
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 4.05,
+   "ang_med": 0.7,
+   "meets": 0.633,
+   "n": 60
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 3.64,
+   "ang_med": 0.57,
+   "meets": 0.733,
+   "n": 60
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 3.35,
+   "ang_med": 0.54,
+   "meets": 0.75,
+   "n": 60
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 3.0,
+   "ang_med": 0.52,
+   "meets": 0.783,
+   "n": 60
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 4.92,
+   "ang_med": 0.9,
+   "meets": 0.517,
+   "n": 60
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 4.86,
+   "ang_med": 0.84,
+   "meets": 0.55,
+   "n": 60
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 4.37,
+   "ang_med": 0.83,
+   "meets": 0.583,
+   "n": 60
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 3.89,
+   "ang_med": 0.66,
+   "meets": 0.692,
+   "n": 60
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 3.39,
+   "ang_med": 0.57,
+   "meets": 0.742,
+   "n": 60
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 3.18,
+   "ang_med": 0.56,
+   "meets": 0.767,
+   "n": 60
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 3.01,
+   "ang_med": 0.53,
+   "meets": 0.783,
+   "n": 60
+  },
+  "global+fieldmap|stratified|15": {
+   "pos_med": 4.05,
+   "ang_med": 0.77,
+   "meets": 0.592,
+   "n": 60
+  },
+  "global+fieldmap|stratified|30": {
+   "pos_med": 4.55,
+   "ang_med": 0.75,
+   "meets": 0.6,
+   "n": 60
+  },
+  "global+fieldmap|stratified|60": {
+   "pos_med": 4.34,
+   "ang_med": 0.68,
+   "meets": 0.625,
+   "n": 60
+  },
+  "global+fieldmap|stratified|120": {
+   "pos_med": 3.4,
+   "ang_med": 0.58,
+   "meets": 0.725,
+   "n": 60
+  },
+  "global+fieldmap|stratified|240": {
+   "pos_med": 3.25,
+   "ang_med": 0.58,
+   "meets": 0.775,
+   "n": 60
+  },
+  "global+fieldmap|stratified|450": {
+   "pos_med": 3.26,
+   "ang_med": 0.55,
+   "meets": 0.783,
+   "n": 60
+  },
+  "global+fieldmap|stratified|900": {
+   "pos_med": 3.11,
+   "ang_med": 0.54,
+   "meets": 0.783,
+   "n": 60
+  },
+  "global_lgb|-|0": {
+   "pos_med": 7.03,
+   "ang_med": 1.86,
+   "meets": 0.333,
+   "n": 60
+  },
+  "native|-|0": {
+   "pos_med": 8.58,
+   "ang_med": 2.02,
+   "meets": 0.333,
+   "n": 60
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 4.32,
+   "ang_med": 0.93,
+   "meets": 0.583,
+   "n": 60
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 2.47,
+   "ang_med": 0.5,
+   "meets": 0.733,
+   "n": 60
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 2.3,
+   "ang_med": 0.5,
+   "meets": 0.733,
+   "n": 60
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 2.15,
+   "ang_med": 0.46,
+   "meets": 0.742,
+   "n": 60
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 2.05,
+   "ang_med": 0.46,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 2.06,
+   "ang_med": 0.46,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 2.0,
+   "ang_med": 0.46,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 2.03,
+   "ang_med": 0.45,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 4.32,
+   "ang_med": 0.93,
+   "meets": 0.583,
+   "n": 60
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 2.89,
+   "ang_med": 0.48,
+   "meets": 0.733,
+   "n": 60
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 2.49,
+   "ang_med": 0.47,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 2.34,
+   "ang_med": 0.45,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 2.16,
+   "ang_med": 0.43,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 2.19,
+   "ang_med": 0.43,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 2.2,
+   "ang_med": 0.43,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 2.16,
+   "ang_med": 0.43,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|random|0": {
+   "pos_med": 4.32,
+   "ang_med": 0.93,
+   "meets": 0.583,
+   "n": 60
+  },
+  "site_attention|random|15": {
+   "pos_med": 2.26,
+   "ang_med": 0.53,
+   "meets": 0.758,
+   "n": 60
+  },
+  "site_attention|random|30": {
+   "pos_med": 2.24,
+   "ang_med": 0.45,
+   "meets": 0.758,
+   "n": 60
+  },
+  "site_attention|random|60": {
+   "pos_med": 2.16,
+   "ang_med": 0.46,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|random|120": {
+   "pos_med": 2.18,
+   "ang_med": 0.44,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|random|240": {
+   "pos_med": 2.17,
+   "ang_med": 0.43,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|random|450": {
+   "pos_med": 2.1,
+   "ang_med": 0.45,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|random|900": {
+   "pos_med": 2.12,
+   "ang_med": 0.44,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|0": {
+   "pos_med": 4.32,
+   "ang_med": 0.93,
+   "meets": 0.583,
+   "n": 60
+  },
+  "site_attention|stratified|15": {
+   "pos_med": 2.14,
+   "ang_med": 0.5,
+   "meets": 0.758,
+   "n": 60
+  },
+  "site_attention|stratified|30": {
+   "pos_med": 2.18,
+   "ang_med": 0.47,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|60": {
+   "pos_med": 2.12,
+   "ang_med": 0.46,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|120": {
+   "pos_med": 2.09,
+   "ang_med": 0.45,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|240": {
+   "pos_med": 2.11,
+   "ang_med": 0.45,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|450": {
+   "pos_med": 2.15,
+   "ang_med": 0.44,
+   "meets": 0.767,
+   "n": 60
+  },
+  "site_attention|stratified|900": {
+   "pos_med": 2.14,
+   "ang_med": 0.44,
+   "meets": 0.767,
+   "n": 60
+  }
+ },
+ "near_emitter": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 10.31,
+   "ang_med": 1.58,
+   "meets": 0.125,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 7.27,
+   "ang_med": 1.17,
+   "meets": 0.275,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 4.81,
+   "ang_med": 0.87,
+   "meets": 0.675,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 4.2,
+   "ang_med": 0.76,
+   "meets": 0.775,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 3.64,
+   "ang_med": 0.65,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 5.69,
+   "ang_med": 1.1,
+   "meets": 0.45,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 4.8,
+   "ang_med": 0.9,
+   "meets": 0.6,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 4.24,
+   "ang_med": 0.77,
+   "meets": 0.7,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 3.75,
+   "ang_med": 0.72,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 3.49,
+   "ang_med": 0.65,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 5.6,
+   "ang_med": 0.99,
+   "meets": 0.5,
+   "n": 20
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 4.6,
+   "ang_med": 0.88,
+   "meets": 0.675,
+   "n": 20
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 3.86,
+   "ang_med": 0.72,
+   "meets": 0.775,
+   "n": 20
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 3.51,
+   "ang_med": 0.69,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 3.67,
+   "ang_med": 0.67,
+   "meets": 0.8,
+   "n": 20
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 14.84,
+   "ang_med": 3.59,
+   "meets": 0.075,
+   "n": 20
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 12.22,
+   "ang_med": 2.69,
+   "meets": 0.075,
+   "n": 20
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 18.78,
+   "ang_med": 4.28,
+   "meets": 0.0,
+   "n": 20
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 13.13,
+   "ang_med": 3.16,
+   "meets": 0.0,
+   "n": 20
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 10.29,
+   "ang_med": 2.29,
+   "meets": 0.075,
+   "n": 20
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 8.6,
+   "ang_med": 2.04,
+   "meets": 0.125,
+   "n": 20
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 6.82,
+   "ang_med": 1.78,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 11.33,
+   "ang_med": 2.56,
+   "meets": 0.15,
+   "n": 20
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 13.25,
+   "ang_med": 2.91,
+   "meets": 0.25,
+   "n": 20
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 11.79,
+   "ang_med": 2.61,
+   "meets": 0.05,
+   "n": 20
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 8.54,
+   "ang_med": 2.06,
+   "meets": 0.1,
+   "n": 20
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 6.71,
+   "ang_med": 1.74,
+   "meets": 0.25,
+   "n": 20
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 7.2,
+   "ang_med": 1.6,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 6.53,
+   "ang_med": 1.53,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|random|15": {
+   "pos_med": 10.85,
+   "ang_med": 2.61,
+   "meets": 0.15,
+   "n": 20
+  },
+  "fieldmap|random|30": {
+   "pos_med": 11.23,
+   "ang_med": 2.25,
+   "meets": 0.075,
+   "n": 20
+  },
+  "fieldmap|random|60": {
+   "pos_med": 10.51,
+   "ang_med": 2.48,
+   "meets": 0.05,
+   "n": 20
+  },
+  "fieldmap|random|120": {
+   "pos_med": 8.47,
+   "ang_med": 1.97,
+   "meets": 0.1,
+   "n": 20
+  },
+  "fieldmap|random|240": {
+   "pos_med": 7.77,
+   "ang_med": 1.86,
+   "meets": 0.15,
+   "n": 20
+  },
+  "fieldmap|random|450": {
+   "pos_med": 7.34,
+   "ang_med": 1.61,
+   "meets": 0.35,
+   "n": 20
+  },
+  "fieldmap|random|900": {
+   "pos_med": 7.02,
+   "ang_med": 1.55,
+   "meets": 0.4,
+   "n": 20
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 14.41,
+   "ang_med": 3.44,
+   "meets": 0.075,
+   "n": 20
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 12.03,
+   "ang_med": 2.93,
+   "meets": 0.05,
+   "n": 20
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 19.31,
+   "ang_med": 4.65,
+   "meets": 0.0,
+   "n": 20
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 13.4,
+   "ang_med": 3.18,
+   "meets": 0.025,
+   "n": 20
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 11.03,
+   "ang_med": 2.45,
+   "meets": 0.05,
+   "n": 20
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 9.13,
+   "ang_med": 2.13,
+   "meets": 0.1,
+   "n": 20
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 7.64,
+   "ang_med": 1.73,
+   "meets": 0.325,
+   "n": 20
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 11.36,
+   "ang_med": 2.7,
+   "meets": 0.15,
+   "n": 20
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 11.61,
+   "ang_med": 2.55,
+   "meets": 0.2,
+   "n": 20
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 11.63,
+   "ang_med": 2.8,
+   "meets": 0.05,
+   "n": 20
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 9.57,
+   "ang_med": 1.99,
+   "meets": 0.1,
+   "n": 20
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 7.91,
+   "ang_med": 1.66,
+   "meets": 0.2,
+   "n": 20
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 7.81,
+   "ang_med": 1.63,
+   "meets": 0.4,
+   "n": 20
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 7.4,
+   "ang_med": 1.58,
+   "meets": 0.4,
+   "n": 20
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 10.73,
+   "ang_med": 2.66,
+   "meets": 0.15,
+   "n": 20
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 10.82,
+   "ang_med": 2.48,
+   "meets": 0.1,
+   "n": 20
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 11.26,
+   "ang_med": 2.66,
+   "meets": 0.05,
+   "n": 20
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 9.21,
+   "ang_med": 1.97,
+   "meets": 0.1,
+   "n": 20
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 7.75,
+   "ang_med": 1.93,
+   "meets": 0.15,
+   "n": 20
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 7.55,
+   "ang_med": 1.57,
+   "meets": 0.35,
+   "n": 20
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 7.7,
+   "ang_med": 1.51,
+   "meets": 0.35,
+   "n": 20
+  },
+  "global_lgb|-|0": {
+   "pos_med": 7.26,
+   "ang_med": 2.59,
+   "meets": 0.25,
+   "n": 20
+  },
+  "native|-|0": {
+   "pos_med": 9.61,
+   "ang_med": 2.68,
+   "meets": 0.2,
+   "n": 20
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 5.19,
+   "ang_med": 1.08,
+   "meets": 0.35,
+   "n": 20
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 4.35,
+   "ang_med": 0.97,
+   "meets": 0.575,
+   "n": 20
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 3.98,
+   "ang_med": 0.87,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 3.99,
+   "ang_med": 0.91,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 4.21,
+   "ang_med": 0.91,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 4.17,
+   "ang_med": 0.87,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 4.16,
+   "ang_med": 0.87,
+   "meets": 0.625,
+   "n": 20
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 4.11,
+   "ang_med": 0.88,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 5.19,
+   "ang_med": 1.08,
+   "meets": 0.35,
+   "n": 20
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 4.93,
+   "ang_med": 0.93,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 4.41,
+   "ang_med": 0.89,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 4.66,
+   "ang_med": 0.91,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 4.29,
+   "ang_med": 0.86,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 4.15,
+   "ang_med": 0.85,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 4.36,
+   "ang_med": 0.85,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 4.27,
+   "ang_med": 0.86,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|0": {
+   "pos_med": 5.19,
+   "ang_med": 1.08,
+   "meets": 0.35,
+   "n": 20
+  },
+  "site_attention|random|15": {
+   "pos_med": 4.94,
+   "ang_med": 0.92,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|random|30": {
+   "pos_med": 4.16,
+   "ang_med": 0.91,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|random|60": {
+   "pos_med": 4.39,
+   "ang_med": 0.87,
+   "meets": 0.625,
+   "n": 20
+  },
+  "site_attention|random|120": {
+   "pos_med": 4.29,
+   "ang_med": 0.86,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|240": {
+   "pos_med": 4.27,
+   "ang_med": 0.87,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|450": {
+   "pos_med": 4.14,
+   "ang_med": 0.87,
+   "meets": 0.625,
+   "n": 20
+  },
+  "site_attention|random|900": {
+   "pos_med": 4.2,
+   "ang_med": 0.87,
+   "meets": 0.65,
+   "n": 20
+  }
+ },
+ "under_table": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 4.56,
+   "ang_med": 0.77,
+   "meets": 0.7,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 2.57,
+   "ang_med": 0.53,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 2.12,
+   "ang_med": 0.43,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 1.85,
+   "ang_med": 0.41,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 1.79,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 3.11,
+   "ang_med": 0.54,
+   "meets": 0.9,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 2.09,
+   "ang_med": 0.46,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 1.95,
+   "ang_med": 0.4,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 1.84,
+   "ang_med": 0.41,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 1.82,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 3.3,
+   "ang_med": 0.6,
+   "meets": 0.875,
+   "n": 20
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 2.22,
+   "ang_med": 0.47,
+   "meets": 0.925,
+   "n": 20
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 1.91,
+   "ang_med": 0.4,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 1.79,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 1.77,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 7.68,
+   "ang_med": 0.95,
+   "meets": 0.55,
+   "n": 20
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 5.87,
+   "ang_med": 0.57,
+   "meets": 0.675,
+   "n": 20
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 4.01,
+   "ang_med": 0.6,
+   "meets": 0.675,
+   "n": 20
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 1.52,
+   "ang_med": 0.27,
+   "meets": 0.95,
+   "n": 20
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 1.04,
+   "ang_med": 0.19,
+   "meets": 0.95,
+   "n": 20
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 0.94,
+   "ang_med": 0.17,
+   "meets": 0.975,
+   "n": 20
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 0.9,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 8.5,
+   "ang_med": 0.86,
+   "meets": 0.55,
+   "n": 20
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 6.09,
+   "ang_med": 0.54,
+   "meets": 0.65,
+   "n": 20
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 2.51,
+   "ang_med": 0.3,
+   "meets": 0.9,
+   "n": 20
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 1.08,
+   "ang_med": 0.2,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 0.98,
+   "ang_med": 0.18,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 0.91,
+   "ang_med": 0.17,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 0.9,
+   "ang_med": 0.17,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|random|15": {
+   "pos_med": 7.68,
+   "ang_med": 0.95,
+   "meets": 0.525,
+   "n": 20
+  },
+  "fieldmap|random|30": {
+   "pos_med": 4.86,
+   "ang_med": 0.48,
+   "meets": 0.725,
+   "n": 20
+  },
+  "fieldmap|random|60": {
+   "pos_med": 2.93,
+   "ang_med": 0.42,
+   "meets": 0.825,
+   "n": 20
+  },
+  "fieldmap|random|120": {
+   "pos_med": 1.28,
+   "ang_med": 0.2,
+   "meets": 0.925,
+   "n": 20
+  },
+  "fieldmap|random|240": {
+   "pos_med": 1.0,
+   "ang_med": 0.19,
+   "meets": 0.975,
+   "n": 20
+  },
+  "fieldmap|random|450": {
+   "pos_med": 0.96,
+   "ang_med": 0.17,
+   "meets": 1.0,
+   "n": 20
+  },
+  "fieldmap|random|900": {
+   "pos_med": 0.89,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 20
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 7.62,
+   "ang_med": 0.98,
+   "meets": 0.525,
+   "n": 20
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 5.31,
+   "ang_med": 0.7,
+   "meets": 0.675,
+   "n": 20
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 6.47,
+   "ang_med": 0.92,
+   "meets": 0.575,
+   "n": 20
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 4.02,
+   "ang_med": 0.59,
+   "meets": 0.825,
+   "n": 20
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 3.05,
+   "ang_med": 0.45,
+   "meets": 0.925,
+   "n": 20
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 2.73,
+   "ang_med": 0.41,
+   "meets": 0.925,
+   "n": 20
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 2.67,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 7.34,
+   "ang_med": 1.0,
+   "meets": 0.5,
+   "n": 20
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 5.54,
+   "ang_med": 0.76,
+   "meets": 0.7,
+   "n": 20
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 4.17,
+   "ang_med": 0.59,
+   "meets": 0.8,
+   "n": 20
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 3.4,
+   "ang_med": 0.47,
+   "meets": 0.85,
+   "n": 20
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 3.26,
+   "ang_med": 0.45,
+   "meets": 0.9,
+   "n": 20
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 2.9,
+   "ang_med": 0.42,
+   "meets": 0.95,
+   "n": 20
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 2.77,
+   "ang_med": 0.4,
+   "meets": 0.95,
+   "n": 20
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 7.77,
+   "ang_med": 0.97,
+   "meets": 0.525,
+   "n": 20
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 5.04,
+   "ang_med": 0.69,
+   "meets": 0.7,
+   "n": 20
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 4.42,
+   "ang_med": 0.61,
+   "meets": 0.775,
+   "n": 20
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 3.46,
+   "ang_med": 0.44,
+   "meets": 0.9,
+   "n": 20
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 2.96,
+   "ang_med": 0.42,
+   "meets": 0.9,
+   "n": 20
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 2.83,
+   "ang_med": 0.39,
+   "meets": 0.95,
+   "n": 20
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 2.68,
+   "ang_med": 0.4,
+   "meets": 0.95,
+   "n": 20
+  },
+  "global_lgb|-|0": {
+   "pos_med": 15.79,
+   "ang_med": 2.58,
+   "meets": 0.0,
+   "n": 20
+  },
+  "native|-|0": {
+   "pos_med": 15.72,
+   "ang_med": 2.0,
+   "meets": 0.05,
+   "n": 20
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 13.29,
+   "ang_med": 2.32,
+   "meets": 0.0,
+   "n": 20
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 13.8,
+   "ang_med": 1.97,
+   "meets": 0.125,
+   "n": 20
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 13.82,
+   "ang_med": 1.94,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 13.91,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 13.95,
+   "ang_med": 1.95,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 13.9,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 13.92,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 13.9,
+   "ang_med": 1.92,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 13.29,
+   "ang_med": 2.32,
+   "meets": 0.0,
+   "n": 20
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 13.49,
+   "ang_med": 1.96,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 13.52,
+   "ang_med": 1.97,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 13.68,
+   "ang_med": 1.99,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 13.79,
+   "ang_med": 1.94,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 13.76,
+   "ang_med": 1.94,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 13.81,
+   "ang_med": 1.94,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 13.85,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|random|0": {
+   "pos_med": 13.29,
+   "ang_med": 2.32,
+   "meets": 0.0,
+   "n": 20
+  },
+  "site_attention|random|15": {
+   "pos_med": 13.61,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|random|30": {
+   "pos_med": 13.9,
+   "ang_med": 1.98,
+   "meets": 0.125,
+   "n": 20
+  },
+  "site_attention|random|60": {
+   "pos_med": 13.74,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|random|120": {
+   "pos_med": 13.79,
+   "ang_med": 1.94,
+   "meets": 0.125,
+   "n": 20
+  },
+  "site_attention|random|240": {
+   "pos_med": 13.8,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|random|450": {
+   "pos_med": 13.84,
+   "ang_med": 1.92,
+   "meets": 0.1,
+   "n": 20
+  },
+  "site_attention|random|900": {
+   "pos_med": 13.83,
+   "ang_med": 1.93,
+   "meets": 0.1,
+   "n": 20
+  }
+ },
+ "clutter": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 4.96,
+   "ang_med": 0.99,
+   "meets": 0.525,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 3.55,
+   "ang_med": 0.68,
+   "meets": 0.75,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 2.74,
+   "ang_med": 0.57,
+   "meets": 0.925,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 2.55,
+   "ang_med": 0.49,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 2.39,
+   "ang_med": 0.46,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 3.85,
+   "ang_med": 0.76,
+   "meets": 0.75,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 3.27,
+   "ang_med": 0.62,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 2.82,
+   "ang_med": 0.52,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 2.61,
+   "ang_med": 0.5,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 2.49,
+   "ang_med": 0.48,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 3.6,
+   "ang_med": 0.72,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 3.08,
+   "ang_med": 0.59,
+   "meets": 0.925,
+   "n": 20
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 2.68,
+   "ang_med": 0.55,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 2.51,
+   "ang_med": 0.5,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 2.57,
+   "ang_med": 0.45,
+   "meets": 0.95,
+   "n": 20
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 6.38,
+   "ang_med": 1.29,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 5.35,
+   "ang_med": 1.0,
+   "meets": 0.5,
+   "n": 20
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 5.58,
+   "ang_med": 1.28,
+   "meets": 0.45,
+   "n": 20
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 4.23,
+   "ang_med": 0.8,
+   "meets": 0.525,
+   "n": 20
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 2.94,
+   "ang_med": 0.65,
+   "meets": 0.725,
+   "n": 20
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 2.75,
+   "ang_med": 0.58,
+   "meets": 0.8,
+   "n": 20
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 2.43,
+   "ang_med": 0.54,
+   "meets": 0.825,
+   "n": 20
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 7.59,
+   "ang_med": 1.53,
+   "meets": 0.25,
+   "n": 20
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 7.05,
+   "ang_med": 1.29,
+   "meets": 0.3,
+   "n": 20
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 5.07,
+   "ang_med": 1.06,
+   "meets": 0.5,
+   "n": 20
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 4.34,
+   "ang_med": 0.82,
+   "meets": 0.6,
+   "n": 20
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 3.36,
+   "ang_med": 0.71,
+   "meets": 0.85,
+   "n": 20
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 3.04,
+   "ang_med": 0.58,
+   "meets": 0.75,
+   "n": 20
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 2.84,
+   "ang_med": 0.54,
+   "meets": 0.9,
+   "n": 20
+  },
+  "fieldmap|random|15": {
+   "pos_med": 5.99,
+   "ang_med": 1.14,
+   "meets": 0.425,
+   "n": 20
+  },
+  "fieldmap|random|30": {
+   "pos_med": 5.45,
+   "ang_med": 1.07,
+   "meets": 0.475,
+   "n": 20
+  },
+  "fieldmap|random|60": {
+   "pos_med": 4.46,
+   "ang_med": 0.91,
+   "meets": 0.525,
+   "n": 20
+  },
+  "fieldmap|random|120": {
+   "pos_med": 3.6,
+   "ang_med": 0.85,
+   "meets": 0.675,
+   "n": 20
+  },
+  "fieldmap|random|240": {
+   "pos_med": 3.17,
+   "ang_med": 0.7,
+   "meets": 0.75,
+   "n": 20
+  },
+  "fieldmap|random|450": {
+   "pos_med": 2.79,
+   "ang_med": 0.63,
+   "meets": 0.85,
+   "n": 20
+  },
+  "fieldmap|random|900": {
+   "pos_med": 2.81,
+   "ang_med": 0.56,
+   "meets": 0.875,
+   "n": 20
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 7.18,
+   "ang_med": 1.31,
+   "meets": 0.35,
+   "n": 20
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 5.58,
+   "ang_med": 1.12,
+   "meets": 0.45,
+   "n": 20
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 6.69,
+   "ang_med": 1.29,
+   "meets": 0.325,
+   "n": 20
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 4.55,
+   "ang_med": 0.92,
+   "meets": 0.525,
+   "n": 20
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 3.6,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 3.26,
+   "ang_med": 0.69,
+   "meets": 0.775,
+   "n": 20
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 3.2,
+   "ang_med": 0.66,
+   "meets": 0.8,
+   "n": 20
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 7.09,
+   "ang_med": 1.51,
+   "meets": 0.2,
+   "n": 20
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 6.9,
+   "ang_med": 1.31,
+   "meets": 0.25,
+   "n": 20
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 5.81,
+   "ang_med": 1.25,
+   "meets": 0.4,
+   "n": 20
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 5.31,
+   "ang_med": 0.95,
+   "meets": 0.55,
+   "n": 20
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 4.0,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 3.72,
+   "ang_med": 0.73,
+   "meets": 0.7,
+   "n": 20
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 3.59,
+   "ang_med": 0.62,
+   "meets": 0.8,
+   "n": 20
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 6.48,
+   "ang_med": 1.22,
+   "meets": 0.35,
+   "n": 20
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 5.55,
+   "ang_med": 1.18,
+   "meets": 0.375,
+   "n": 20
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 4.67,
+   "ang_med": 1.1,
+   "meets": 0.475,
+   "n": 20
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 3.88,
+   "ang_med": 0.88,
+   "meets": 0.575,
+   "n": 20
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 3.8,
+   "ang_med": 0.78,
+   "meets": 0.675,
+   "n": 20
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 3.43,
+   "ang_med": 0.68,
+   "meets": 0.725,
+   "n": 20
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 3.48,
+   "ang_med": 0.68,
+   "meets": 0.8,
+   "n": 20
+  },
+  "global_lgb|-|0": {
+   "pos_med": 8.55,
+   "ang_med": 1.86,
+   "meets": 0.2,
+   "n": 20
+  },
+  "native|-|0": {
+   "pos_med": 8.14,
+   "ang_med": 1.93,
+   "meets": 0.15,
+   "n": 20
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 4.73,
+   "ang_med": 1.04,
+   "meets": 0.5,
+   "n": 20
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 3.99,
+   "ang_med": 0.99,
+   "meets": 0.525,
+   "n": 20
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 3.48,
+   "ang_med": 0.88,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 3.4,
+   "ang_med": 0.9,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 3.39,
+   "ang_med": 0.87,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 3.34,
+   "ang_med": 0.85,
+   "meets": 0.675,
+   "n": 20
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 3.3,
+   "ang_med": 0.83,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 3.24,
+   "ang_med": 0.82,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 4.73,
+   "ang_med": 1.04,
+   "meets": 0.5,
+   "n": 20
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 3.5,
+   "ang_med": 0.87,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 3.66,
+   "ang_med": 0.84,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 3.3,
+   "ang_med": 0.79,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 3.23,
+   "ang_med": 0.79,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 3.27,
+   "ang_med": 0.78,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 3.19,
+   "ang_med": 0.79,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 3.21,
+   "ang_med": 0.81,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|random|0": {
+   "pos_med": 4.73,
+   "ang_med": 1.04,
+   "meets": 0.5,
+   "n": 20
+  },
+  "site_attention|random|15": {
+   "pos_med": 3.64,
+   "ang_med": 0.9,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|random|30": {
+   "pos_med": 3.65,
+   "ang_med": 0.82,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|random|60": {
+   "pos_med": 3.34,
+   "ang_med": 0.81,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|random|120": {
+   "pos_med": 3.13,
+   "ang_med": 0.8,
+   "meets": 0.675,
+   "n": 20
+  },
+  "site_attention|random|240": {
+   "pos_med": 3.17,
+   "ang_med": 0.81,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|random|450": {
+   "pos_med": 3.15,
+   "ang_med": 0.81,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|random|900": {
+   "pos_med": 3.16,
+   "ang_med": 0.81,
+   "meets": 0.7,
+   "n": 20
+  }
+ },
+ "strong": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 4.99,
+   "ang_med": 0.99,
+   "meets": 0.5,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 3.72,
+   "ang_med": 0.72,
+   "meets": 0.65,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 2.93,
+   "ang_med": 0.56,
+   "meets": 0.9,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 2.37,
+   "ang_med": 0.5,
+   "meets": 0.925,
+   "n": 20
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 2.18,
+   "ang_med": 0.47,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 3.67,
+   "ang_med": 0.72,
+   "meets": 0.6,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 3.07,
+   "ang_med": 0.6,
+   "meets": 0.8,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 2.78,
+   "ang_med": 0.52,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 2.61,
+   "ang_med": 0.5,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 2.3,
+   "ang_med": 0.46,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 3.13,
+   "ang_med": 0.73,
+   "meets": 0.7,
+   "n": 20
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 2.57,
+   "ang_med": 0.61,
+   "meets": 0.9,
+   "n": 20
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 2.44,
+   "ang_med": 0.48,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 2.33,
+   "ang_med": 0.49,
+   "meets": 0.95,
+   "n": 20
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 2.24,
+   "ang_med": 0.46,
+   "meets": 0.95,
+   "n": 20
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 8.36,
+   "ang_med": 1.5,
+   "meets": 0.35,
+   "n": 20
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 7.56,
+   "ang_med": 1.51,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 8.0,
+   "ang_med": 1.79,
+   "meets": 0.3,
+   "n": 20
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 5.53,
+   "ang_med": 1.11,
+   "meets": 0.425,
+   "n": 20
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 3.91,
+   "ang_med": 0.78,
+   "meets": 0.625,
+   "n": 20
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 4.03,
+   "ang_med": 0.68,
+   "meets": 0.675,
+   "n": 20
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 3.47,
+   "ang_med": 0.65,
+   "meets": 0.725,
+   "n": 20
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 9.15,
+   "ang_med": 1.63,
+   "meets": 0.2,
+   "n": 20
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 9.52,
+   "ang_med": 1.7,
+   "meets": 0.3,
+   "n": 20
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 6.24,
+   "ang_med": 1.25,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 4.55,
+   "ang_med": 0.89,
+   "meets": 0.6,
+   "n": 20
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 3.97,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 3.75,
+   "ang_med": 0.73,
+   "meets": 0.75,
+   "n": 20
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 3.43,
+   "ang_med": 0.62,
+   "meets": 0.75,
+   "n": 20
+  },
+  "fieldmap|random|15": {
+   "pos_med": 8.7,
+   "ang_med": 1.84,
+   "meets": 0.35,
+   "n": 20
+  },
+  "fieldmap|random|30": {
+   "pos_med": 6.48,
+   "ang_med": 1.35,
+   "meets": 0.4,
+   "n": 20
+  },
+  "fieldmap|random|60": {
+   "pos_med": 5.62,
+   "ang_med": 1.17,
+   "meets": 0.425,
+   "n": 20
+  },
+  "fieldmap|random|120": {
+   "pos_med": 3.33,
+   "ang_med": 0.84,
+   "meets": 0.625,
+   "n": 20
+  },
+  "fieldmap|random|240": {
+   "pos_med": 3.64,
+   "ang_med": 0.73,
+   "meets": 0.675,
+   "n": 20
+  },
+  "fieldmap|random|450": {
+   "pos_med": 3.89,
+   "ang_med": 0.74,
+   "meets": 0.775,
+   "n": 20
+  },
+  "fieldmap|random|900": {
+   "pos_med": 3.4,
+   "ang_med": 0.66,
+   "meets": 0.75,
+   "n": 20
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 7.85,
+   "ang_med": 1.76,
+   "meets": 0.375,
+   "n": 20
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 6.93,
+   "ang_med": 1.41,
+   "meets": 0.325,
+   "n": 20
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 9.48,
+   "ang_med": 1.94,
+   "meets": 0.275,
+   "n": 20
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 6.14,
+   "ang_med": 1.26,
+   "meets": 0.425,
+   "n": 20
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 4.96,
+   "ang_med": 0.95,
+   "meets": 0.575,
+   "n": 20
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 4.13,
+   "ang_med": 0.91,
+   "meets": 0.575,
+   "n": 20
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 4.01,
+   "ang_med": 0.86,
+   "meets": 0.65,
+   "n": 20
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 9.32,
+   "ang_med": 1.9,
+   "meets": 0.25,
+   "n": 20
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 9.22,
+   "ang_med": 1.75,
+   "meets": 0.25,
+   "n": 20
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 6.94,
+   "ang_med": 1.31,
+   "meets": 0.4,
+   "n": 20
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 4.8,
+   "ang_med": 0.96,
+   "meets": 0.5,
+   "n": 20
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 4.78,
+   "ang_med": 0.89,
+   "meets": 0.55,
+   "n": 20
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 4.05,
+   "ang_med": 0.83,
+   "meets": 0.65,
+   "n": 20
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 4.34,
+   "ang_med": 0.84,
+   "meets": 0.7,
+   "n": 20
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 9.29,
+   "ang_med": 2.0,
+   "meets": 0.3,
+   "n": 20
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 8.04,
+   "ang_med": 1.53,
+   "meets": 0.375,
+   "n": 20
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 5.95,
+   "ang_med": 1.25,
+   "meets": 0.425,
+   "n": 20
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 4.86,
+   "ang_med": 0.96,
+   "meets": 0.55,
+   "n": 20
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 4.74,
+   "ang_med": 0.92,
+   "meets": 0.55,
+   "n": 20
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 4.19,
+   "ang_med": 0.87,
+   "meets": 0.65,
+   "n": 20
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 4.03,
+   "ang_med": 0.85,
+   "meets": 0.7,
+   "n": 20
+  },
+  "global_lgb|-|0": {
+   "pos_med": 13.61,
+   "ang_med": 3.67,
+   "meets": 0.3,
+   "n": 20
+  },
+  "native|-|0": {
+   "pos_med": 18.92,
+   "ang_med": 3.85,
+   "meets": 0.3,
+   "n": 20
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 5.37,
+   "ang_med": 1.16,
+   "meets": 0.45,
+   "n": 20
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 3.52,
+   "ang_med": 0.79,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 3.39,
+   "ang_med": 0.77,
+   "meets": 0.625,
+   "n": 20
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 3.38,
+   "ang_med": 0.79,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 3.21,
+   "ang_med": 0.79,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 3.31,
+   "ang_med": 0.77,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 3.29,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 3.31,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 5.37,
+   "ang_med": 1.16,
+   "meets": 0.45,
+   "n": 20
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 4.03,
+   "ang_med": 0.79,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 4.07,
+   "ang_med": 0.8,
+   "meets": 0.6,
+   "n": 20
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 3.81,
+   "ang_med": 0.81,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 3.51,
+   "ang_med": 0.8,
+   "meets": 0.7,
+   "n": 20
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 3.47,
+   "ang_med": 0.8,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 3.39,
+   "ang_med": 0.8,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 3.29,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|0": {
+   "pos_med": 5.37,
+   "ang_med": 1.16,
+   "meets": 0.45,
+   "n": 20
+  },
+  "site_attention|random|15": {
+   "pos_med": 3.65,
+   "ang_med": 0.82,
+   "meets": 0.55,
+   "n": 20
+  },
+  "site_attention|random|30": {
+   "pos_med": 3.42,
+   "ang_med": 0.79,
+   "meets": 0.625,
+   "n": 20
+  },
+  "site_attention|random|60": {
+   "pos_med": 3.38,
+   "ang_med": 0.74,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|120": {
+   "pos_med": 3.25,
+   "ang_med": 0.77,
+   "meets": 0.675,
+   "n": 20
+  },
+  "site_attention|random|240": {
+   "pos_med": 3.25,
+   "ang_med": 0.79,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|450": {
+   "pos_med": 3.31,
+   "ang_med": 0.79,
+   "meets": 0.65,
+   "n": 20
+  },
+  "site_attention|random|900": {
+   "pos_med": 3.28,
+   "ang_med": 0.78,
+   "meets": 0.65,
+   "n": 20
+  }
+ },
+ "clean": {
+  "attention+fieldmap|convenient|60": {
+   "pos_med": 1.42,
+   "ang_med": 0.28,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|convenient|120": {
+   "pos_med": 0.95,
+   "ang_med": 0.2,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|convenient|240": {
+   "pos_med": 0.73,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|convenient|450": {
+   "pos_med": 0.67,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|convenient|900": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|coverage|60": {
+   "pos_med": 0.77,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|coverage|120": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|coverage|240": {
+   "pos_med": 0.66,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|coverage|450": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|coverage|900": {
+   "pos_med": 0.62,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|random|60": {
+   "pos_med": 0.84,
+   "ang_med": 0.18,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|random|120": {
+   "pos_med": 0.73,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|random|240": {
+   "pos_med": 0.68,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|random|450": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "attention+fieldmap|random|900": {
+   "pos_med": 0.62,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|15": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|30": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|60": {
+   "pos_med": 1.29,
+   "ang_med": 0.27,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|120": {
+   "pos_med": 0.87,
+   "ang_med": 0.19,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|240": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|450": {
+   "pos_med": 0.62,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|convenient|900": {
+   "pos_med": 0.57,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|15": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|30": {
+   "pos_med": 0.6,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|60": {
+   "pos_med": 0.7,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|120": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|240": {
+   "pos_med": 0.6,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|450": {
+   "pos_med": 0.57,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|coverage|900": {
+   "pos_med": 0.56,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|15": {
+   "pos_med": 0.65,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|30": {
+   "pos_med": 0.63,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|60": {
+   "pos_med": 0.79,
+   "ang_med": 0.17,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|120": {
+   "pos_med": 0.66,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|240": {
+   "pos_med": 0.61,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|450": {
+   "pos_med": 0.59,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "fieldmap|random|900": {
+   "pos_med": 0.56,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|15": {
+   "pos_med": 0.85,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|30": {
+   "pos_med": 0.82,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|60": {
+   "pos_med": 1.54,
+   "ang_med": 0.3,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|120": {
+   "pos_med": 1.04,
+   "ang_med": 0.2,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|240": {
+   "pos_med": 0.85,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|450": {
+   "pos_med": 0.75,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|convenient|900": {
+   "pos_med": 0.71,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|15": {
+   "pos_med": 0.81,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|30": {
+   "pos_med": 0.77,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|60": {
+   "pos_med": 0.87,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|120": {
+   "pos_med": 0.79,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|240": {
+   "pos_med": 0.75,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|450": {
+   "pos_med": 0.71,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|coverage|900": {
+   "pos_med": 0.7,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|15": {
+   "pos_med": 0.79,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|30": {
+   "pos_med": 0.77,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|60": {
+   "pos_med": 0.98,
+   "ang_med": 0.18,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|120": {
+   "pos_med": 0.83,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|240": {
+   "pos_med": 0.77,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|450": {
+   "pos_med": 0.72,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global+fieldmap|random|900": {
+   "pos_med": 0.7,
+   "ang_med": 0.13,
+   "meets": 1.0,
+   "n": 10
+  },
+  "global_lgb|-|0": {
+   "pos_med": 0.74,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "native|-|0": {
+   "pos_med": 0.55,
+   "ang_med": 0.12,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|0": {
+   "pos_med": 1.15,
+   "ang_med": 0.24,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|15": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|30": {
+   "pos_med": 0.67,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|60": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|120": {
+   "pos_med": 0.63,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|240": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|450": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|convenient|900": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|0": {
+   "pos_med": 1.15,
+   "ang_med": 0.24,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|15": {
+   "pos_med": 0.7,
+   "ang_med": 0.16,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|30": {
+   "pos_med": 0.64,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|60": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|120": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|240": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|450": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|coverage|900": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|0": {
+   "pos_med": 1.15,
+   "ang_med": 0.24,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|15": {
+   "pos_med": 0.69,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|30": {
+   "pos_med": 0.66,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|60": {
+   "pos_med": 0.65,
+   "ang_med": 0.15,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|120": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|240": {
+   "pos_med": 0.64,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|450": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  },
+  "site_attention|random|900": {
+   "pos_med": 0.63,
+   "ang_med": 0.14,
+   "meets": 1.0,
+   "n": 10
+  }
+ }
+}

@@ -1,0 +1,14 @@
+/Volumes/CuetipDev/em-tracking-correction/emtrack/attention.py:38: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(
+{"step": 1000, "loss": 0.0862, "val_median_pos_mm": {"0": 5.72, "40": 3.5, "320": 4.64}, "sec": 37}
+{"step": 2000, "loss": 0.0312, "val_median_pos_mm": {"0": 6.8, "40": 2.87, "320": 3.66}, "sec": 74}
+{"step": 3000, "loss": 0.0139, "val_median_pos_mm": {"0": 5.1, "40": 2.23, "320": 2.94}, "sec": 113}
+{"step": 4000, "loss": 0.0083, "val_median_pos_mm": {"0": 4.46, "40": 2.4, "320": 2.35}, "sec": 157}
+{"step": 5000, "loss": 0.0116, "val_median_pos_mm": {"0": 4.94, "40": 2.63, "320": 2.01}, "sec": 206}
+{"step": 6000, "loss": 0.0074, "val_median_pos_mm": {"0": 4.47, "40": 2.22, "320": 2.33}, "sec": 251}
+{"step": 7000, "loss": 0.0057, "val_median_pos_mm": {"0": 4.06, "40": 2.38, "320": 2.39}, "sec": 295}
+{"step": 8000, "loss": 0.0103, "val_median_pos_mm": {"0": 3.95, "40": 2.15, "320": 1.87}, "sec": 342}
+{"step": 9000, "loss": 0.0051, "val_median_pos_mm": {"0": 4.63, "40": 2.11, "320": 1.99}, "sec": 394}
+{"step": 10000, "loss": 0.0037, "val_median_pos_mm": {"0": 3.79, "40": 1.81, "320": 1.94}, "sec": 445}
+{"step": 11000, "loss": 0.0049, "val_median_pos_mm": {"0": 4.73, "40": 2.05, "320": 1.86}, "sec": 496}
+{"step": 12000, "loss": 0.0034, "val_median_pos_mm": {"0": 4.48, "40": 2.35, "320": 1.66}, "sec": 548}

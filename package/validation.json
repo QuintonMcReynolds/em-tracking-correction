@@ -1,0 +1,33 @@
+{
+ "onnx_hash_matches_manifest": true,
+ "schema": true,
+ "parity_max_abs_diff": 3.0517578125e-05,
+ "parity_ok": true,
+ "permutation_invariance_max_diff": 1.52587890625e-05,
+ "permutation_invariant": true,
+ "units_guard_accepts_real_input": true,
+ "units_guard_rejects_metres": true,
+ "units_guard_detail": {
+  "real": {
+   "out_of_range_frac": 0.0,
+   "ok": true,
+   "worst": []
+  },
+  "metres": {
+   "out_of_range_frac": 0.04411764705882353,
+   "ok": false,
+   "worst": [
+    "nat_pz_l1",
+    "rx2_pz_l1",
+    "rx2_pz_l3",
+    "nat_pz_l0",
+    "rx2_pz_l0"
+   ]
+  }
+ },
+ "clean_room_median_dp_mm": 0.3462320566177368,
+ "clean_room_median_dth_deg": 0.0799599289894104,
+ "clean_room_invariant": true,
+ "output_bounds": true,
+ "passed": true
+}

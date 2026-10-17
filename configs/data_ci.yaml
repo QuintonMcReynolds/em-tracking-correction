@@ -1,0 +1,5 @@
+seed: 7
+version: ci
+splits:
+  train: {family: clinic, n_envs: 2, n_traj: 4, T: 8, pool: 20}
+  clean: {family: clean,  n_envs: 1, n_traj: 4, T: 8, pool: 20}

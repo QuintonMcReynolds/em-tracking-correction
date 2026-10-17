@@ -1,0 +1,48 @@
+{
+  "spatial_gate": {
+    "flag_rate_outer_shell": 0.6117497483710336,
+    "flag_rate_outer_shell_mahalanobis_only": 0.02969221804312126,
+    "flag_rate_inner_holdout": 0.01586198911659141,
+    "native": {
+      "n_envs": 48,
+      "pos_med_mm": 5.824687070323876,
+      "pos_p95_mm": 31.149464278527553,
+      "ang_med_deg": 1.5158203613433687,
+      "ang_p95_deg": 5.651792564304301,
+      "envs_meeting_target": 0.3541666666666667,
+      "worst_env_pos_med_mm": 112.96086094348965
+    },
+    "ungated": {
+      "n_envs": 48,
+      "pos_med_mm": 27.415529477284167,
+      "pos_p95_mm": 62.53162048268172,
+      "ang_med_deg": 4.242738580225999,
+      "ang_p95_deg": 8.446945790477066,
+      "envs_meeting_target": 0.0,
+      "worst_env_pos_med_mm": 50.353415118208396
+    },
+    "gated": {
+      "n_envs": 48,
+      "pos_med_mm": 10.649877681936848,
+      "pos_p95_mm": 41.5097261446394,
+      "ang_med_deg": 2.059727840284089,
+      "ang_p95_deg": 6.147842642605428,
+      "envs_meeting_target": 0.22916666666666666,
+      "worst_env_pos_med_mm": 112.96086094348965
+    }
+  },
+  "env_shift": {
+    "threshold": 9.004931220584094,
+    "alarm_rate": {
+      "test_clinic": 0.05012709710218607,
+      "near_emitter": 0.03909465020576132,
+      "under_table": 0.7325695334288084,
+      "clutter": 0.05969221203171149,
+      "strong": 0.10202966432474629,
+      "clean": 0.0
+    },
+    "auroc_alarm_rate_predicts_global_miss": 0.7476190476190476,
+    "n_envs": 150,
+    "n_miss": 105
+  }
+}
